@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="logo_releted_color_1">#a05218</color>
+    <color name="logo_releted_color_2">#fdcd54</color>
+    <color name="logo_releted_color_3">#2b0917</color>
+    <color name="splash_bg_body_color">#eeaf3c</color>
+</resources>

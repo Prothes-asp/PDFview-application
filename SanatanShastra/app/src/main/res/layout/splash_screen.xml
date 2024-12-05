@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen"
+    android:background="@drawable/background"
+    >
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/sadhona"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:lottie_rawRes="@raw/sadhona"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        android:scaleType="fitXY"
+        />
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/logoImages"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="fitCenter"
+        app:riv_corner_radius="30dip"
+        app:riv_border_width="2dip"
+        app:riv_border_color="@color/logo_releted_color_2"
+        app:riv_mutate_background="true"
+        app:riv_tile_mode="clamp"
+        app:riv_oval="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        />
+
+    <soup.neumorphism.NeumorphTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoImages"
+        android:text="@string/app_name"
+        android:textColor="@color/logo_releted_color_2"
+        android:textSize="25sp"
+        android:typeface="serif"
+        android:layout_marginTop="250dp"
+        android:layout_centerHorizontal="true"
+        app:neumorph_shadowColorDark="@color/logo_releted_color_2"
+        app:neumorph_shadowColorLight="@color/logo_releted_color_1"
+        />
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/loaders"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:lottie_rawRes="@raw/loders"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        />
+
+
+
+</RelativeLayout>
